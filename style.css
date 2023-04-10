@@ -5,11 +5,11 @@
 }
 
 :root {
-    --white: #fafafb;
-    --purple: #9a67ea;
-    --blue-light: #04d4c3;
-    --blue-dark: #2a73c2;
-    --green: #2c7b90;
+    --white: #d9d9f0;
+    --purple: #3f0a94;
+    --blue-light: #0471d6;
+    --blue-dark: #06077a;
+    --purple-light: #9a2eff;
 }
 
 body {
@@ -84,7 +84,7 @@ body {
 
 .task-list li {
     display: flex;
-    background: linear-gradient(to bottom, var(--blue-dark), var(--green));
+    background: linear-gradient(to bottom, var(--blue-dark), var(--purple-light));
     border-radius: 15px;
     padding: 10px;
     align-items: center;
